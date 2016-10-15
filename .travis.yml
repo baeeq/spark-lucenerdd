@@ -14,9 +14,6 @@ before_cache:
 matrix:
   include:
     # Spark 2.0.0
-    - jdk: openjdk7
-      scala: 2.11.8
-      env: TEST_SPARK_VERSION="2.0.1" LUCENE_ANALYZER="en"
     - jdk: oraclejdk8
       scala: 2.11.8
       env: TEST_SPARK_VERSION="2.0.1" LUCENE_ANALYZER="en"
